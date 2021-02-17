@@ -1,0 +1,25 @@
+{
+  "configurations": {
+    "C": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/a.out",
+        "externalConsole": true,
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}",
+        "MIMode": "gdb"
+      }
+    },
+    "Python": {
+      "adapter": "debugpy",
+      "configuration": {
+        "request": "launch",
+        "program": "${workspaceRoot}/ChessMain.py",
+        "externalConsole": true,
+        "stopOnEntry": true,
+        "cwd": "${workspaceRoot}"
+      }
+    }
+  }
+}
